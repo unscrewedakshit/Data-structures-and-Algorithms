@@ -2,6 +2,15 @@ package linkedlist;
 
 import java.util.ArrayList;
 
+class Node {
+    int data;
+    Node next;
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
 public class ReverseLinkedList {
     public static void main(String[] args) {
         Node head = new Node(10);
